@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AB5D0108D3CE1FE0B618224 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5D42317CA63686A1E4B7B /* InfoPlist.strings */; };
+		9AB5D11DC8E76D668F59A933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5D61426F97F6D07C7D576 /* InfoPlist.strings */; };
+		9AB5D37FB4426A03859940D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5D8E4F5413A70312B3FF3 /* Foundation.framework */; };
+		9AB5D4DE37E31DE527DD5FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5D8E4F5413A70312B3FF3 /* Foundation.framework */; };
+		9AB5D54771EB2A7B88C3B6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5D4520A62D4C98D3BE96D /* Images.xcassets */; };
+		9AB5D595A669A4A0E98AE109 /* AerialsIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5DAB3B0BAC45DC9244462 /* AerialsIOSTests.m */; };
+		9AB5D5D3D8B442E39AB453B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5D1E5EBC5B6CADCBDAD2F /* AppDelegate.m */; };
+		9AB5D76CC0667CC9391EF938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5D2AB3F7B7B0D664D148E /* CoreGraphics.framework */; };
+		9AB5D881C678EFECD542C248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5D19E6FE91A9B361931FC /* main.m */; };
+		9AB5DAF9F06E783458DBEDBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5DFB870AEB8890765DD9D /* XCTest.framework */; };
+		9AB5DEB80F9A0C799A884612 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5D1990517E78302D9FF9A /* UIKit.framework */; };
+		9AB5DF92F9FB29D7B51027A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB5D1990517E78302D9FF9A /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AB5DA92DBF4C05802612AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB5DC050E64BD1B82CBE5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB5D15BC6E3627D749244A6;
+			remoteInfo = AerialsIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AB5D01256E0DCBDCE8E3AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AB5D1990517E78302D9FF9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AB5D19E6FE91A9B361931FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AB5D1E5EBC5B6CADCBDAD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AB5D2AB3F7B7B0D664D148E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AB5D4520A62D4C98D3BE96D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AB5D5F4455C1E36F74FDB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AB5D7003A06409BDAC4A487 /* AerialsIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AerialsIOS-Info.plist"; sourceTree = "<group>"; };
+		9AB5D8E4F5413A70312B3FF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AB5D9B0826418AFC98B7BC2 /* AerialsIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AerialsIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB5DA054CBD76CBB44BE1E1 /* AerialsIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AerialsIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB5DAB3B0BAC45DC9244462 /* AerialsIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AerialsIOSTests.m; sourceTree = "<group>"; };
+		9AB5DCF16E07A6394F837F20 /* AerialsIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AerialsIOS-Prefix.pch"; sourceTree = "<group>"; };
+		9AB5DE71F272306F370AB269 /* AerialsIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AerialsIOSTests-Info.plist"; sourceTree = "<group>"; };
+		9AB5DF7536CF171377CE52D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AB5DFB870AEB8890765DD9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB5D009778CC4AA1BF46D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5DAF9F06E783458DBEDBE /* XCTest.framework in Frameworks */,
+				9AB5D37FB4426A03859940D4 /* Foundation.framework in Frameworks */,
+				9AB5DF92F9FB29D7B51027A8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB5D7C2CEF53443BB153E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5D4DE37E31DE527DD5FDD /* Foundation.framework in Frameworks */,
+				9AB5D76CC0667CC9391EF938 /* CoreGraphics.framework in Frameworks */,
+				9AB5DEB80F9A0C799A884612 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AB5D003AB61E3D6E42B8217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5D7003A06409BDAC4A487 /* AerialsIOS-Info.plist */,
+				9AB5D61426F97F6D07C7D576 /* InfoPlist.strings */,
+				9AB5D19E6FE91A9B361931FC /* main.m */,
+				9AB5DCF16E07A6394F837F20 /* AerialsIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB5D2FD6776BF3EE0CB2DC9 /* AerialsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5D003AB61E3D6E42B8217 /* Supporting Files */,
+				9AB5DF7536CF171377CE52D0 /* AppDelegate.h */,
+				9AB5D1E5EBC5B6CADCBDAD2F /* AppDelegate.m */,
+				9AB5D4520A62D4C98D3BE96D /* Images.xcassets */,
+			);
+			path = AerialsIOS;
+			sourceTree = "<group>";
+		};
+		9AB5D3851714353D6F6C699D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5DE71F272306F370AB269 /* AerialsIOSTests-Info.plist */,
+				9AB5D42317CA63686A1E4B7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB5D9623E16B7452441803F = {
+			isa = PBXGroup;
+			children = (
+				9AB5DAAEDD816A06608F3182 /* Products */,
+				9AB5DC110B95236A6F3976B2 /* Frameworks */,
+				9AB5D2FD6776BF3EE0CB2DC9 /* AerialsIOS */,
+				9AB5DCE6A1930CCACA8D5B0B /* AerialsIOSTests */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB5DAAEDD816A06608F3182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5D9B0826418AFC98B7BC2 /* AerialsIOS.app */,
+				9AB5DA054CBD76CBB44BE1E1 /* AerialsIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB5DC110B95236A6F3976B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5D8E4F5413A70312B3FF3 /* Foundation.framework */,
+				9AB5D2AB3F7B7B0D664D148E /* CoreGraphics.framework */,
+				9AB5D1990517E78302D9FF9A /* UIKit.framework */,
+				9AB5DFB870AEB8890765DD9D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AB5DCE6A1930CCACA8D5B0B /* AerialsIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5D3851714353D6F6C699D /* Supporting Files */,
+				9AB5DAB3B0BAC45DC9244462 /* AerialsIOSTests.m */,
+			);
+			path = AerialsIOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB5D15BC6E3627D749244A6 /* AerialsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB5DC8E8C62888FA3A3A44D /* Build configuration list for PBXNativeTarget "AerialsIOS" */;
+			buildPhases = (
+				9AB5D353EEDA69ADE9453FB8 /* Sources */,
+				9AB5D7C2CEF53443BB153E40 /* Frameworks */,
+				9AB5DD1D6957612CB2AF3FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AerialsIOS;
+			productName = AerialsIOS;
+			productReference = 9AB5D9B0826418AFC98B7BC2 /* AerialsIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AB5D3067080FC23A644708E /* AerialsIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB5D11A58B4550E9AE1B12B /* Build configuration list for PBXNativeTarget "AerialsIOSTests" */;
+			buildPhases = (
+				9AB5DEC3D73B91118C130157 /* Sources */,
+				9AB5D009778CC4AA1BF46D79 /* Frameworks */,
+				9AB5D3D4C3C87DDB16930E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB5DB74CE97BDCF62E3B9A1 /* PBXTargetDependency */,
+			);
+			name = AerialsIOSTests;
+			productName = AerialsIOSTests;
+			productReference = 9AB5DA054CBD76CBB44BE1E1 /* AerialsIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB5DC050E64BD1B82CBE5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Canis Majoris";
+			};
+			buildConfigurationList = 9AB5D322386BA88DA687C8F6 /* Build configuration list for PBXProject "AerialsIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AB5D9623E16B7452441803F;
+			productRefGroup = 9AB5DAAEDD816A06608F3182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB5D15BC6E3627D749244A6 /* AerialsIOS */,
+				9AB5D3067080FC23A644708E /* AerialsIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB5D3D4C3C87DDB16930E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5D0108D3CE1FE0B618224 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB5DD1D6957612CB2AF3FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5D11DC8E76D668F59A933 /* InfoPlist.strings in Resources */,
+				9AB5D54771EB2A7B88C3B6D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB5D353EEDA69ADE9453FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5D881C678EFECD542C248 /* main.m in Sources */,
+				9AB5D5D3D8B442E39AB453B1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB5DEC3D73B91118C130157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5D595A669A4A0E98AE109 /* AerialsIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AB5DB74CE97BDCF62E3B9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB5D15BC6E3627D749244A6 /* AerialsIOS */;
+			targetProxy = 9AB5DA92DBF4C05802612AC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AB5D42317CA63686A1E4B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB5D5F4455C1E36F74FDB23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AB5D61426F97F6D07C7D576 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB5D01256E0DCBDCE8E3AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AB5D904E035BB3D039373F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialsIOS/AerialsIOS-Prefix.pch";
+				INFOPLIST_FILE = "AerialsIOS/AerialsIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AB5D91364D639496D8EEE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB5DA7E22C631E332921D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AB5DF0362FEDA0B31647B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialsIOS/AerialsIOS-Prefix.pch";
+				INFOPLIST_FILE = "AerialsIOSTests/AerialsIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AB5DF33334F0F58FB29E995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialsIOS/AerialsIOS-Prefix.pch";
+				INFOPLIST_FILE = "AerialsIOS/AerialsIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AB5DFF0B0C3C3DB5B77C34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AerialsIOS/AerialsIOS-Prefix.pch";
+				INFOPLIST_FILE = "AerialsIOSTests/AerialsIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB5D11A58B4550E9AE1B12B /* Build configuration list for PBXNativeTarget "AerialsIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB5DF0362FEDA0B31647B44 /* Debug */,
+				9AB5DFF0B0C3C3DB5B77C34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AB5D322386BA88DA687C8F6 /* Build configuration list for PBXProject "AerialsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB5DA7E22C631E332921D1F /* Debug */,
+				9AB5D91364D639496D8EEE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB5DC8E8C62888FA3A3A44D /* Build configuration list for PBXNativeTarget "AerialsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB5DF33334F0F58FB29E995 /* Debug */,
+				9AB5D904E035BB3D039373F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB5DC050E64BD1B82CBE5EF /* Project object */;
+}
